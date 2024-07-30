@@ -1,0 +1,29 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #40826D; 
+    text-align: center; 
+    box-shadow: 2px 1px 1px #93C572;
+  }
+  
+  .navbar-toggler {
+    display: none;
+  }
+
+  .navbar-brand,
+  .navbar-nav,
+  .nav-link {
+    display: inline-flex;
+    padding: 0 10px;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 1px 2px #A0A0A0;
+    color: rgb(159,226,191);
+  }
+  
+  .navbar-brand {
+    display: inline-flex;
+    justify-self: space between;
+  }
+  

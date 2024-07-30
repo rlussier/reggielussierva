@@ -1,0 +1,22 @@
+.main_block-secondary-container {
+    width: 75%;
+    align-items: center;
+    margin: auto;
+}
+
+.services_block {
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    padding: 20px 0;
+    /* justify-content: center; */
+    width: 25%;
+    span {
+        font-size: 28px;
+        font-weight: 800;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+

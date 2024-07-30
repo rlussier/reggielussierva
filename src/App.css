@@ -1,3 +1,8 @@
+body {
+  background: rgb(159,226,191);
+  background: radial-gradient(circle, rgba(159,226,191,1) 100%, rgba(126,191,148,0.01) 150%);
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +41,35 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.main_block-container {
+  padding: 20px;
+  margin: auto;
+  /* height: 80vh; */
+  /* background-color: #9FE2BF; */
+ 
+}
+
+.footer { 
+  /* bottom: 0; */
+  text-align: center;
+  span {
+    font-size: 18px;
+  }
+  .socials_block {
+    ul {
+      text-align: center;
+    li {
+      display: inline-block;
+      padding: 10px;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  }
+
+}
+
