@@ -1,0 +1,25 @@
+.main_block-container {
+    /* padding: 20px; */
+    /* margin: auto;  */
+    /* height: 100vh; */
+    text-align: center;
+  } 
+   
+
+.about_block {
+    margin: auto;
+    /* text-align: center; */
+    width: 50%;
+    display: inline-flex;
+    /* background-color: green; */
+    img {
+        box-shadow: 1px 2px 1px #c5c5c5;
+    }
+}
+
+.about-paragraph {
+    padding: 10px;
+    span {
+        font-size: 22px;
+    }
+}

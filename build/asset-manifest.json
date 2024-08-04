@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/reggielussierva/static/css/main.9144f17b.css",
+    "main.js": "/reggielussierva/static/js/main.7478ddd4.js",
+    "static/js/453.824b0baa.chunk.js": "/reggielussierva/static/js/453.824b0baa.chunk.js",
+    "static/media/FullBodyShotGimpWithText.png": "/reggielussierva/static/media/FullBodyShotGimpWithText.4a78730c5b5520b71c6f.png",
+    "static/media/FaviconLogo.png": "/reggielussierva/static/media/FaviconLogo.0adc42a5a733fb591a62.png",
+    "static/media/NAVA.png": "/reggielussierva/static/media/NAVA.0bc8d735323bd9850ace.png",
+    "static/media/SpaceSailor.png": "/reggielussierva/static/media/SpaceSailor.147c140981b1c7ed009a.png",
+    "static/media/QueerVox.png": "/reggielussierva/static/media/QueerVox.fde7d34b4b48a63e4e32.png",
+    "index.html": "/reggielussierva/index.html",
+    "main.9144f17b.css.map": "/reggielussierva/static/css/main.9144f17b.css.map",
+    "main.7478ddd4.js.map": "/reggielussierva/static/js/main.7478ddd4.js.map",
+    "453.824b0baa.chunk.js.map": "/reggielussierva/static/js/453.824b0baa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9144f17b.css",
+    "static/js/main.7478ddd4.js"
+  ]
+}

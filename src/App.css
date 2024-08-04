@@ -1,3 +1,5 @@
+@import './sass/About.css';
+
 body {
   background: rgb(159,226,191);
   background: radial-gradient(circle, rgba(159,226,191,1) 100%, rgba(126,191,148,0.01) 150%);
@@ -18,7 +20,7 @@ body {
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -27,7 +29,7 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -46,10 +48,11 @@ body {
 
 .main_block-container {
   padding: 20px;
-  margin: auto;
-  /* height: 80vh; */
-  /* background-color: #9FE2BF; */
- 
+  /* margin: auto; */
+  /* height: 100vh; */
+  h2 {
+    font-size: 32px;
+  }
 }
 
 .footer { 

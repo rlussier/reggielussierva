@@ -11,7 +11,7 @@ export default function Contact() {
     <div className="container_block-contact">
       <div className="contact_container">
         <h3>For inquiries about your next project. You can reach me at...</h3>
-        <span>Email: ralussier@hotmail.com</span><br/>
+        <span>Email:<a href="mailto:ralussier@hotmail.com"> ralussier@hotmail.com</a></span><br/>
         <span>Phone: (818)570-8346</span>
       </div>
       <div className="organizations_container-block">

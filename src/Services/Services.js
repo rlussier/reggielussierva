@@ -4,7 +4,7 @@ import '../sass/Services.css'
 export default function Services() {
   return (
     <div className="main_block-container">
-      <h2>Services</h2>
+      {/* <h2>What Else I Can Offer</h2>
       <div className="main_block-secondary-container">
       <div className="services_block">
       <span>Quality Control & Assurance</span>
@@ -22,7 +22,7 @@ export default function Services() {
       <span>Project Management</span>
       <p>I offer quality control for your scripts.</p>
       </div>
-    </div>
+    </div> */}
     </div>
   )
 }
