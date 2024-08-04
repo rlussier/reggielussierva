@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { Link } from 'react-scroll';
 import logo from './FaviconLogo.png'; 
 import Demos from './Demos/Demos'; 
-import Services from './Services/Services'; 
+// import Services from './Services/Services'; 
 import Gallery from './Gallery/Gallery'; 
 import Contact from './Contact/Contact'; 
+import About from './About/About';
 
 import './sass/Jumbotron.css';
 import './sass/Navbar.css';
@@ -22,21 +24,11 @@ const App = () => {
 
   return (
     <div className="container">
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        bg="dark"
-        variant="dark"
-        expanded={navbarExpanded}
-        onToggle={handleNavbarToggle}
-      >
-          <Navbar.Brand>
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ml-auto">
-            <Nav.Link>
-              <Link to="jumbotron" smooth={true} duration={500}>
+       <HashRouter>
+        <Navbar>
+        <Navbar.Brand>
+          <Nav.Link>
+          <Link to="home" smooth={true} duration={500}>
                 <img
                   src={logo}
                   width="48"
@@ -46,38 +38,48 @@ const App = () => {
                 />
               </Link>
             </Nav.Link>
+            <Nav.Link>
+                <Link to="about" smooth={true} duration={500}>About</Link>
+              </Nav.Link>
               <Nav.Link>
                 <Link to="demos" smooth={true} duration={500}>Demos</Link>
               </Nav.Link>
-              <Nav.Link>
+              {/* <Nav.Link>
                 <Link to="services" smooth={true} duration={500}>Services</Link>
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link>
                 <Link to="gallery" smooth={true} duration={500}>Gallery</Link>
               </Nav.Link>
               <Nav.Link>
                 <Link to="contact" smooth={true} duration={500}>Contact</Link>
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-   
-      </Navbar>
+          </Nav.Link>
+        </Navbar.Brand>
+        </Navbar>
+        <Routes>
+          <Route path="About" element={<About/>} />
+          <Route path="Demos" element={<Demos/>}/>
+          {/* <Route path="Services" element={<Services/>}/> */}
+          <Route path="Gallery" element={<Gallery/>}/>
+          <Route path="Contact" element={<Contact/>}/>
+        </Routes>
 
-      <div className="jumbotron" id="jumbotron">
-        
-        {/* <img src="../FullBodyShotGimp.png"/> */}
+      </HashRouter>
+
+<div className="jumbotron" id="home">
+        <img src="../FullBodyShotGimp.png"/>
     </div>
-{/*     
-      <div id="home">
-        <Home />
-      </div> */}
+
       <div className="main_block-container">
+
+      <div id="about">
+        <About />
+      </div>
       <div id="demos">
         <Demos />
       </div>
-      <div id="services">
+      {/* <div id="services">
         <Services />
-      </div>
+      </div> */}
       <div id="gallery">
         <Gallery />
       </div>
