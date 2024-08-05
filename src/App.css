@@ -47,16 +47,15 @@ body {
 
 
 .main_block-container {
-  padding: 20px;
-  /* margin: auto; */
-  /* height: 100vh; */
+  padding: 25px;
+  margin: 0 auto;
+  height: 100vh;
   h2 {
     font-size: 32px;
   }
 }
 
 .footer { 
-  /* bottom: 0; */
   text-align: center;
   span {
     font-size: 18px;

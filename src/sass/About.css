@@ -23,3 +23,18 @@
         font-size: 22px;
     }
 }
+
+.services_block {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    justify-content: center;
+    width: 25%;
+    span {
+        font-size: 28px;
+        font-weight: 800;
+    }
+    p {
+        font-size: 18px;
+    }
+}

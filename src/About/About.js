@@ -5,7 +5,7 @@ import SpaceSailor from '../Images/SpaceSailor.png';
 export default function About() {
   return (
     <div className="main_block-container">
-        {/* <h2>About</h2> */}
+        <h2>About Me</h2>
         <div className="about_block">
             <div className="about-img_block">
                 <img src={SpaceSailor} width="450px" height="400px" />
